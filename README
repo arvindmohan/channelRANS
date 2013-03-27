@@ -32,7 +32,8 @@ channelRANS can also work with a LES solver, but this had already been achieved 
 Note: This code has NOT been rigorously tested for simulation statistics yet, but the trial runs have been good.
 
 Target platform
-    The code is known to work with OpenFOAM 2.1.x.
+    The code is known to work with OpenFOAM 2.1.x. on Linux Platforms.
+    For OpenFOAM cross compilation on Windows, check the unofficial release by blueCAPE CFD.
 
 Instructions
 ------------
