@@ -41,7 +41,7 @@ Instructions
 
     git clone git://github.com/ArvindCFD/channelRANS.git
 
-2. Copy the directory in your OpenFOAM/solvers/incompressible directory.
+2. Copy the directory in your OpenFOAM/applications/solvers/incompressible directory.
 
 3. Enter the directory where the source code has been extracted, and compile
    it by typing: wmake 
