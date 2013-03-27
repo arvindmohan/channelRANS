@@ -1,0 +1,4 @@
+channelRANS
+===========
+
+RANS Channel flow solver for OpenFOAM, with mass flow rate based pressure gradient correction
