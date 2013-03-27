@@ -1,10 +1,69 @@
 channelRANS
 ===========
 
+RANS Channel flow solver for OpenFOAM
+
+Copyright Information
+    Copyright (C) 1991-2013 OpenCFD Ltd.
+    Copyright (C) 2013 Arvind Mohan
+
+License
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Description
+
 RANS Channel flow solver for OpenFOAM, with mass flow rate based pressure gradient correction.
 
 User can define mass flow rate through a bulk velocity "Ubar" in the constant/transportProperties file.
-See transportProperties file in the directory for example. Everything else is same as channel395 tutorial
-in OpenFOAM 2.1.x - Just use RANS properties instead of LES.
 
-Note: This code has NOT been rigorously tested for simulation statistics (yet..) but the trial runs were fine.
+channelRANS can also work with a LES solver, but this had already been achieved in channelFoam.
+
+Note: This code has NOT been rigorously tested for simulation statistics yet, but the trial runs have been good.
+
+Target platform
+    The code is known to work with OpenFOAM 2.1.x.
+
+Instructions
+------------
+
+1. Download the source code using git: 
+
+    git clone git://github.com/ArvindCFD/channelRANS.git
+
+2. Copy the directory in your OpenFOAM/solvers/incompressible directory.
+
+3. Enter the directory where the source code has been extracted, and compile
+   it by typing: wmake 
+
+4. Specify "Ubar" in transportProperties file (refer to the example file)
+
+5. All other settings are similar to channel395 LES tutorial. Just choose RANS model.
+
+   
+Disclaimer
+----------
+This offering is not approved or endorsed by OpenCFD Limited, the producer 
+of the OpenFOAM software and owner of the OPENFOAM®  and OpenCFD®  trade marks.
+
+Detailed information on the OpenFOAM trademark can be found at
+
+ - http://www.openfoam.com/legal/trademark-policy.php
+ - http://www.openfoam.com/legal/trademark-guidelines.php
+ 
+For further information on OpenCFD and OpenFOAM, please refer to 
+
+ - http://www.openfoam.com
+
+
+
