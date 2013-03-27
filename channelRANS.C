@@ -22,13 +22,15 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 Application
-    pisoFoam
+    channelRANS
 
 Description
-    Transient solver for incompressible flow.
+    Modified PISO solver for RANS simulations with constant mass flow rate (Ubar) enforced. 
+    Pressure Gradient adjusted to keep user defined Ubar constant. In LES, this is 
+    accomplished with channelFoam in OpenFOAM 2.1.x
 
-    Turbulence modelling is generic, i.e. laminar, RAS or LES may be selected.
-
+Author
+    Arvind Mohan
 \*---------------------------------------------------------------------------*/
 
 #include "fvCFD.H"
