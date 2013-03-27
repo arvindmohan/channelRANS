@@ -1,4 +1,10 @@
 channelRANS
 ===========
 
-RANS Channel flow solver for OpenFOAM, with mass flow rate based pressure gradient correction
+RANS Channel flow solver for OpenFOAM, with mass flow rate based pressure gradient correction.
+
+User can define mass flow rate through a bulk velocity "Ubar" in the constant/transportProperties file. See transportProperties 
+file in the directory for example. Everything else is same as channel395 tutorial in OpenFOAM 2.1.x - Just use RANS properties instead
+of LES.
+
+Note: This code has NOT been rigorously tested for simulation statistics (yet..) but the trial runs were fine.
