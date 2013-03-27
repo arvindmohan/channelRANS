@@ -1,0 +1,3 @@
+channelRANS.C
+
+EXE = $(FOAM_APPBIN)/channelRANS
