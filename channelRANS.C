@@ -3,7 +3,7 @@ RANS Channel flow solver for OpenFOAM, with mass flow rate based pressure gradie
 
 Copyright Information
     Copyright (C) 1991-2013 OpenCFD Ltd.
-    Copyright (C) 2013 Arvind Mohan
+    Copyright (C) 2013 Arvind T. Mohan
 
 License
     This program is free software: you can redistribute it and/or modify
@@ -28,7 +28,7 @@ Description
     accomplished with channelFoam in OpenFOAM 2.1.x
 
 Author
-    Arvind Mohan
+    Arvind T. Mohan
 \*---------------------------------------------------------------------------*/
 
 #include "fvCFD.H"
