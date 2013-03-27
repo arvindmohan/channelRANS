@@ -22,7 +22,7 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 Application
-    pisoFoam
+    channelRANS
 
 Description
     Transient solver for incompressible flow.
