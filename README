@@ -1,7 +1,7 @@
 channelRANS
 ===========
 
-RANS Channel flow solver for OpenFOAM.
+RANS Channel flow solver for the Open Source Computational Fluid Dynamics code - OpenFOAM.
 
 Copyright Information
     Copyright (C) 1991-2013 OpenCFD Ltd.
