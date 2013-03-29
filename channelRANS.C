@@ -31,6 +31,7 @@ Author
     Arvind T. Mohan
 \*---------------------------------------------------------------------------*/
 
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 #include "fvCFD.H"
 #include "singlePhaseTransportModel.H"
 #include "turbulenceModel.H"
@@ -38,7 +39,6 @@ Author
 #include "OFstream.H"
 #include "Random.H"
 
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
